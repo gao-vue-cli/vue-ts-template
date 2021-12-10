@@ -1,0 +1,47 @@
+{
+  "defaultSeverity": "warning", 
+  "extends": ["tslint:recommended"],
+  "linterOptions": {
+  	"exclude": ["node_modules/**"]
+  },
+  "rules": {
+    "curly":true,
+    "forin":true,
+    "no-for-in-array":true,
+    "no-trailing-whitespace": true, 
+    "triple-equals":true,
+    "quotemark": [true, "single"],
+    "indent": [true, "tab", 4],
+    "variable-name": [
+      true,
+      "allow-leading-underscore",
+      "allow-trailing-underscore",
+      "allow-pascal-case",
+      "ban-keywords"
+  	],
+  "interface-name":[true,"always-prefix"],
+  "ordered-imports": false,
+  "object-literal-sort-keys": false,
+  "no-consecutive-blank-lines": false,
+  "trailing-comma": [false],
+  "prefer-for-of": false,
+  "no-debugger": false,
+  "no-bitwise": false,
+  "no-console": [false, "log", "error"],
+  "max-line-length": [true, 200],
+  "no-empty": [false, "allow-empty-functions"],
+  "strictNullChecks": false, 
+  "member-ordering": false, 
+  "vue/no-parsing-error": [
+    2,
+    {
+    "x-invalid-end-tag": false
+    }
+  ],
+  "no-unused-variable": false,
+  "no-string-literal": false,
+  "arrow-parens": false,
+  "semicolon": [false, "always"], 
+  "one-line": false
+  }
+}
